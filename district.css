@@ -1,0 +1,35 @@
+body {
+    background-color: #FFFFCC;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    align: center;
+    font-family: 'Oswald',sans-serif;
+    padding-top: 1em;
+}
+
+#body {
+    background-color:#FF99FF;
+    height: fill;
+    width:60%;
+    margin: 0 auto;
+    padding-left: 3em;
+    padding-right: 3em;
+    height: 100%;
+    font-family: 'Oswald',sans-serif;
+}
+
+#district_div {
+    background-color: #66FF99;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    font-family: 'Oswald',sans-serif;
+}
+
+#img {
+    text-align: center;
+}

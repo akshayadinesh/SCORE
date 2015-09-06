@@ -1,0 +1,77 @@
+body {
+    background-color: #FFFFCC;
+}
+
+h1 {
+    text-align: center;
+    align: center;
+    font-family: 'Oswald',sans-serif;
+}
+
+#post_button button {
+    text-align: center;
+    font-family: 'Oswald',sans-serif;
+}
+
+#make_post {
+    text-align: left;
+    background-color: #66FF99;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    font-family: 'Oswald',sans-serif;
+}
+
+#post_button {
+    text-align: center;
+    font-family: 'Oswald',sans-serif;
+}
+
+#body {
+    background-color:#FF99FF;
+    width:60%;
+    margin: 0 auto;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-family: 'Oswald',sans-serif;
+    height: inherit;
+}
+
+.post {
+    background-color: #66FF99;
+    padding: 0.5em 1em 0.5em 1em;
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    font-family: 'Oswald',sans-serif;
+}
+
+.newpost {
+    background-color: #66FF99;
+    padding: 1em 1em 1em 1em;
+    margin: 1em;
+    border: 2px solid black;
+    border-radius: 0.5em;
+    font-family: 'Oswald',sans-serif;
+}
+
+button {
+    font-family: 'Oswald',sans-serif;
+    font-size: 1em;
+}
+
+#post_text {
+    width: 25em;
+    height: 8em;
+    font-family: 'Oswald',sans-serif;
+}
+
+select {
+    font-family: 'Oswald',sans-serif;
+}
+
+span {
+    font-weight: 800;
+    text-decoration: underline;
+}

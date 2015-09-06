@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="nb.css">
+        <script src="//www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+        <script type="text/javascript" src="jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="nb.js"></script>
+        <title>North Brunswick Township</title>
+    </head>
+    <body><div id="body">
+        <br>
+        <h1>North Brunswick Township School District</h1>
+        <div id="make_post"><div id="post_button"><button id="post">Make a Post</button>&nbsp;&nbsp;<button id="search_button">Search for Posts</button></div>
+        <div id="search_criteria">
+            <form>
+                <p>Read posts directed towards...</p>
+                <select id="search_person">
+                    <option value="none">Select A Position</option>
+                    <option value="teacher">Teachers</option>
+                    <option value="student">Students</option>
+                    <option value="parent">Parents</option>
+                    <option value="administrator">Administrators</option>
+                    <option value="all">Everyone/Others</option>
+                </select>
+                <br><br><button id="go">Search</button>
+            </form>
+        </div>
+        <div id="post_div">
+            <form>
+                <p>Are you a...</p>
+                <select id="person">
+                    <option value="none">Select A Position</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="student">Student</option>
+                    <option value="parent">Parent</option>
+                    <option value="administrator">Administrator</option>
+                    <option value="other">Other</option>
+                </select>
+                <p>Who do you want to view your post?</p>
+                <select id="recipient">
+                    <option value="none">Select A Recipient</option>
+                    <option value="teacher">Teachers</option>
+                    <option value="student">Students</option>
+                    <option value="parent">Parents</option>
+                    <option value="administrator">Administrators</option>
+                    <option value="other">Others</option>
+                </select>
+                <p>What school are you posting about?</p>
+                <select id="school">
+                    <option value="none">Select A School</option>
+                    <option value="nbths">NBTHS</option>
+                    <option value="linwood">Linwood Middle School</option>
+                    <option value="judd">Judd Elementary School</option>
+                    <option value="parsons">Parsons Elementary School</option>
+                    <option value="john_adams">John Adams Elementary School</option>
+                    <option value="livingston_park">Livingston Park Elementary School</option>
+                    <option value="general">None</option>
+                </select><p>Enter your post here:</p>
+                <textarea rows="10" cols="50" id="post_text"></textarea><p></p>
+                <button id="post_submit">Submit</button>
+            </form></div>
+        </div>
+        <p></p>
+        <div id="posts">
+            <span></span>
+            
+            <div id="ex1" class="post administrator">
+            <p>I am a(n) <span>Student</span> writing to <span>Administrators</span> regarding <span>Linwood Middle School</span>.</p>
+            <p>I was hoping that for this year’s Winter Formal dance students would be granted the opportunity to bring dates from other school districts. I believe that this would foster a greater sense of community and collaborative spirit across different school districts. It would also give North Brunswick students the opportunity to meet students who have different backgrounds and passions.</p> </div>
+            
+            <div id="ex2" class="post teacher">
+            <p>I am a(n) <span>Student</span> writing to <span>Teachers</span> regarding <span>NBTHS</span>.</p>
+            <p>I’m concerned that I’m falling behind in my Calculus class. I’ve tried Khan Academy and completing practice problems from the textbook. Is there any other study strategy math teachers would recommend? Also, I think I am suffering from test anxiety. Whenever I take math tests, I panic and forget all of the information I studied. Do any teachers have any recommendations as to how I can combat my text anxiety?</p> </div>
+            
+            <div id="ex3" class="post student">
+                <p>I am a(n) <span>Teacher</span> writing to <span>Students</span> regarding <span>NBTHS</span>.</p>
+                <p>I’ve had multiple outstanding students this year in my AP Computer Science class. My students, if you are truly passionate about programming, I suggest you investigate different Computer Science opportunities within our community. For example, I’ve been notified of a local company’s interest in offering an internship to a high school student. Perhaps one of you would be interested? If so, please get back to me.</p>
+            </div>
+            
+            <div id="ex4" class="post teacher">
+                <p>I am a(n) <span>Administrator</span> writing to <span>Teachers</span> regarding <span>Judd Elementary School</span>.</p>
+                <p>We have received several complaints from students that teachers have been arriving late to class. In keeping with the integrity of our school district, the administration asks that teachers please be punctual. North Brunswick prides itself on providing the best possible education for its students; please help us keep this promise.</p>
+            </div>
+            
+            <div id="ex5" class="post administrator">
+                <p>I am a(n) <span>Teacher</span> writing to <span>Administrators</span> regarding <span>Livingston Park Elementary School</span>.</p>
+                <p>I would like to suggest that our school offers seminars and training sessions for teachers who would like to implement technology into their classrooms. In other school districts I’ve worked at this has been an effective strategy to encourage teachers to help their students learn in more creative and innovative ways. Perhaps we could start with the blended learning format that combines traditional classwork with online assignments for more flexible learning hours.</p>
+            </div>
+            
+            <div id="ex6" class="post administrator">
+                <p>I am a(n) <span>Teacher</span> writing to <span>Administrators</span> regarding <span>the district in general</span>.</p>
+                <p>I would like to thank the hard work and determination of our teachers during these hard times. With the levy failure, the financial strain on our school is certainly felt by everyone, but the effort by the teachers to continue to put forth their best effort is admirable. Perhaps to boost school morale, we could hold a pep rally. Pep rallies are inexpensive and organizing one would be relatively simple.</p>
+            </div>
+            
+            <div id="ex7" class="post administrator">
+                <p>I am a(n) <span>Parent</span> writing to <span>Administrators</span> regarding <span>John Adams Elementary School</span>.</p>
+                <p>In our neighborhood, the school bus driver has been late to the bus stops for the past two weeks. In order for our children to arrive at school on time, we hope that administration will address this situation. Thank you in advance for your help.</p>
+            </div>
+        </div> <br>
+    </div></body>
+</html>

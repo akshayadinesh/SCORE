@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="district.css">
+        <script type="text/javascript" src="jquery-1.11.3.js"></script>
+        <script type="text/javascript" src="district.js"></script>
+        <title>Find Your District</title>
+    </head>
+    <body><div id="body">
+        <h1>S.C.O.R.E. - School Communities' Outreach for Revitalizing Education</h1>
+        <p>Voice your concerns about issues in your school district or respond to others' problems.</p>
+        <div id="district_div"><p>What is your state?</p>
+        <form>
+            <select id="state">
+                <option value="none">Select A State</option>
+                <option value="nj">New Jersey</option>
+                <option value="ca">California</option>
+                <option value="ny">New York</option>
+                <option value="pa">Pennsylvania</option>
+            </select>
+            <button id="state_submit">Next</button>
+            <p hidden id="district1">What is your school district?</p>
+            <select hidden id="district">
+                <option value="">Select A District</option>
+                <option value="nb">North Brunswick Township</option>
+                <option value="egg">Egg Harbor Township</option>
+                <option value="northfield">Northfield City</option>
+            </select><br><br>
+            <button hidden id="district_submit">Submit</button>
+        </form></div><br>
+        <div id="img"><img src="hand.png" /></div>
+    </div></body>
+</html>
